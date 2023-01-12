@@ -24,35 +24,35 @@
 .search span {
   margin-right: 300px;
 }
+#tod {
+  font-size: 50px;
+  margin-left: 30px;
+}
 .tod {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 95%;
+
+  margin-left: 30px;
 }
 .tod span {
   width: 100%;
   margin-left: 61px;
   font-size: 90px;
 }
-.tod__book {
-  height: 400px;
-  width: 700px;
+.tod__book,
+img {
+  height: 600px;
+  width: 500px;
   border-radius: 30px;
   margin-top: 20px;
 }
-img {
-  height: 400px;
-  width: 700px;
-  border-radius: 30px;
-}
+
 .tod__ex {
   height: 400px;
   width: 800px;
 
-  margin-top: 20px;
-  font-size: 30px;
-  margin-left: 40px;
+  margin-top: 30px;
+  font-size: 50px;
+  margin-left: 200px;
 }
 .tod__ex__te {
   font-size: 35px;
