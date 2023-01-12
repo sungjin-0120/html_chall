@@ -1,0 +1,68 @@
+@import "reset.css";
+@import "top.css";
+
+.top-A {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+}
+.top-A__text {
+  font-size: 100px;
+}
+.top-A__book {
+  margin-top: 60px;
+  display: flex;
+}
+.top-A__book__b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top-A__book__b__li {
+  width: 400px;
+  height: 500px;
+  margin-right: 90px;
+  border-radius: 30px;
+}
+.top-A__book__b__li img {
+  width: 400px;
+  height: 500px;
+  border-radius: 30px;
+}
+.top-A__star {
+  font-size: 50px;
+  color: yellowgreen;
+  margin-right: 90px;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 95%;
+}
+.bottom__author {
+  width: 100%;
+  font-size: 100px;
+  margin-left: 80px;
+}
+.bottom__img {
+  width: 600px;
+  height: 700px;
+}
+.bottom__img img {
+  width: 600px;
+  height: 700px;
+  border-radius: 50px;
+}
+.bottom__text {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.bottom__text__h1 {
+  font-size: 50px;
+}
+.bottom__text__h3 {
+  font-size: 45px;
+  opacity: 0.5;
+}
